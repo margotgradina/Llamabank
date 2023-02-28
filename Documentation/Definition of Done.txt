@@ -1,0 +1,6 @@
+Definition of Done 
+- Is klasse prio voor klant? Dan uitgebreid Testen (unit + integration)
+    - zo niet, dan alleen testen waar nodig
+
+- Als complexity = groen dan ok (als equals en hashcode niet meegerekend) Indien oranje nakijken door tweede persoon. (CodeMetrics) 
+- Write Clean code nalopen (1-5 + 10) en bespreken if nec 

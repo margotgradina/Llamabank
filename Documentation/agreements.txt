@@ -1,0 +1,15 @@
+- Vermijden van 'Account' zonder specificatie. 
+BankAccount = bankrekening
+UserAccount = User (ivm opslag in h2 - User is gereserveerd begrip)
+SB = Small Business
+Segment is veranderd naar Sector
+
+
+
+Constanten om ergens op te slaan:
+- Landcode IBAN: NL
+- Bankcode IBAN: LAMA
+- Max negatief bedrag Private: -10.000
+- Max negatief bedrag SB: - 100.000
+
+Methodes:

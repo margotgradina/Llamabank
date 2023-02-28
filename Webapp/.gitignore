@@ -1,0 +1,6 @@
+
+.DS_Store
+
+*.xml
+
+Train/target/test-classes/model/TrainTest.class

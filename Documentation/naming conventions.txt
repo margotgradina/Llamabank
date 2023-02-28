@@ -1,0 +1,6 @@
+Naming conventions:
+
+- URLS voor requests naar API beginnen met /api/<entitynaam in meervoud> gevolgd door logische request. deze staat bovenaan de controllerklasse bij @RequestMapping
+- de default endpoint = een getAll request
+- per methode endpoint = /<actie> in camelcase
+- 

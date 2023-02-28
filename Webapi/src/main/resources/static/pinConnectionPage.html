@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LLAMA BANK | Pin connection page</title>
+
+    <link rel="stylesheet" type="text/css"
+          href="https://cdn.datatables.net/v/dt/dt-1.10.12/af-2.1.2/cr-1.3.2/rr-1.1.2/sc-1.4.2/datatables.min.css"/>
+    <link rel="stylesheet" type="text/css"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+    <!-- Toastr style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+
+    <link rel="stylesheet" href="./sheet2.css">
+</head>
+
+<div class="llama-app">
+    <header class="header">
+        <span><h1 class="header-logo">Llamabank<img src="https://cdn-icons-png.flaticon.com/512/2055/2055904.png"
+                                                    alt="Lama"></h1></span>
+        <div class="header-content">
+
+        </div>
+    </header>
+    <main class="main">
+        <nav class="nav">
+            <ul class="tabs">
+                <li class="tab">
+
+
+                    <button onclick="location.href='clientDashboard.html'" class="tab-btn">
+                        <i class="ph-lightbulb-bold"></i>
+                        <span class="tab-btn-title">Dashboard</span>
+                    </button>
+
+                <li class="tab">
+                    <button onclick="logOutFromSystem()" class="tab-btn">
+                        <i class="ph-bank-bold"></i>
+                        <span class="tab-btn-title">Log Out</span>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+        <div class="content">
+            <header class="overview-header">
+                <h1>Request connection code</h1>
+            </header>
+            <section class="overview">
+
+
+                <form id="connectionForm" action="/nothing" method="post">
+                    <div class="input">
+                        <input type="text" id="bankAccountNumberField" class="form-control"
+                               placeholder="Fill in bank account number">
+                        <div class="input-group-append">
+
+                        </div>
+                    </div>
+                    <div class="output">
+
+                        <input type="text" id="connectionCodeField" class="form-control" readonly
+                               placeholder="Your code:   ">
+                        <div class="input-group-append">
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-4">
+                        <br>
+                        <input type="button" id="requestConnectionCodeBtn" value="Create"
+                               onclick="requestConnectionCode()">
+                    </div>
+                </form>
+                <!-- /.col -->
+
+            </section>
+            <!-- /.col -->
+        </div>
+    </main>
+
+</div>
+
+<!-- log Out -->
+<script src="/logOut.js"></script>
+<!-- rebounce -->
+<script src="/rebounceToWelcome.js"></script>
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+<!-- AdminLTE App -->
+<script src="https://cdn.jsdelivr.net/npm/admin-lte@3.2/dist/js/adminlte.min.js"></script>
+<!-- toaster js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+<script src="/toastrSettings.js"></script>
+<script src="/pinConnectionPage.js"></script>
+</html>

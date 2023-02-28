@@ -1,0 +1,14 @@
+Construction				CON
+Culture, sport, and recreation		CSR
+Retail					RET
+Energy, Water, Environment		EWE
+Finances				FIN
+Healthcare				HEA
+Wholesale				WHO
+Hospitality				HOS
+ICT and Media				ICT
+Industry				IND
+Logistics				LOG
+Other					OTH
+Personal Services			PES
+Business Services			BUS

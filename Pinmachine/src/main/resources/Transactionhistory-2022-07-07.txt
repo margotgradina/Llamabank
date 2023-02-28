@@ -1,0 +1,27 @@
+JOURNAL 2022-07-07
+
+
+TransactionID:  1
+Date:           2022-07-07
+Time:           21:39:26
+Debet number:   NL08LAMA2757686363
+Amount:         €66.00
+
+TransactionID:  2
+Date:           2022-07-07
+Time:           21:39:51
+Debet number:   NL08LAMA2757686363
+Amount:         €33.00
+
+TransactionID:  3
+Date:           2022-07-07
+Time:           21:40:13
+Debet number:   NL08LAMA2757686363
+Amount:         €99.00
+
+TransactionID:  4
+Date:           2022-07-07
+Time:           21:40:48
+Debet number:   NL08LAMA2757686363
+Amount:         €55.00
+

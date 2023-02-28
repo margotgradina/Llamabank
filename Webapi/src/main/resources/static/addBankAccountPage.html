@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BANK | Add Bank Account </title>
+
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- icheck bootstrap -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/icheck-bootstrap/3.0.1/icheck-bootstrap.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/admin-lte@3.2/dist/css/adminlte.min.css">
+    <!-- Toastr style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
+    <!-- Custom style -->
+    <link rel="stylesheet" type="text/css" href="./sheet1.css">
+</head>
+
+<body class="hold-transition register-page" >
+<div class="register-box" >
+    <div class="register-logo" id ="bankname">
+       <b>BANK</b>
+    </div>
+    <div class="card" style="min-height: 500px;">
+        <div class="card-body register-card-body">
+            <p class="login-box-msg"><b>Add a bankAccount</b></p>
+
+            <form method="post" id="addBankAccountForm">
+
+                <!-- Radiobutton Type of BankAccount -->
+                <input type="radio" onclick="showForm('smallBusinessAccount')" id="createSB" name="typeAccount"
+                       value="smallBusinessAccount">
+                <label for="createSB">Create a Small Business Account</label><br>
+                <input type="radio" onclick="showForm('privateAccount')" id="createPrivate" name="typeAccount"
+                       value="privateAccount">
+                <label for="createSB">Create a Private Account</label><br>
+                <input type="radio" onclick="showForm('existingAccount')" id="addExisting" name="typeAccount"
+                       value="existingAccount">
+                <label for="addExisting">Add an existing Bank Account</label><br>
+                <br>
+                <!-- Label Add Type of BankAccount -->
+                <label hidden="true" id="labelAddAccount">Add a BankAccount</label>
+
+                <!-- additional field for SB account -->
+                <select disabled="true" hidden="true" id="sector" class="form-control" name="sector"
+                        required="true" placeholder="Enter Name"
+                        oninvalid="this.setCustomValidity('Choose a sector')"
+                        oninput="this.setCustomValidity('')"/>>
+                <option value="" disabled selected>Sector of business</option>
+                <option value="CON">Construction</option>
+                <option value="CSR">Culture, sport, and recreation</option>
+                <option value="RET">Retail</option>
+                <option value="EWE">Energy, Water, Environment</option>
+                <option value="FIN">Finances</option>
+                <option value="HEA">Healthcare</option>
+                <option value="WHO">Wholesale</option>
+                <option value="HOS">Hospitality</option>
+                <option value="ICT">ICT and media</option>
+                <option value="IND">Industry</option>
+                <option value="LOG">Logistics</option>
+                <option value="PES">Personal Services</option>
+                <option value="BUS">Business Services</option>
+                <option value="OTH">Other</option>
+                </select><br>
+
+                <!-- Additional fields for Existing account -->
+                <input hidden="true" onclick="showExplanation()" onchange="validateBankAccountNr()" disabled="true" required="true" type="text" id="existingBankAccount"
+                       name="existingBankAccount" form="addBankAccountForm" class="form-control"
+                       placeholder="Fill in number of existing account"><br>
+                <input hidden="true" onchange="validateSecurityCode()" disabled="true" required="true" type="text" id="securityCode"
+                       name="securityCode" form="addBankAccountForm" class="form-control"
+                       placeholder="Fill in 5-digit security code">
+                <br>
+                <!-- /.col -->
+                <div class="col-12">
+                    <button disabled="true" hidden="true" id="buttonNewAccount" type="button" onclick="sendApplicationForNewAccount()" class="btn btn-primary btn-block">Apply for
+                        bankaccount
+                    </button>
+                    <button disabled="true" hidden="true" id="buttonExistingAccount" type="button" onclick="sendApplicationForExistingAccount()" class="btn btn-primary btn-block">Add existing bankaccount
+                    </button>
+                    <button id="cancel" type="button" onclick="returnToDashboard()" class="btn btn-primary btn-block">Return to dashboard</button>
+                </div>
+                <!-- /.col -->
+            </form>
+        </div>
+
+        <br>
+        <p class="mb-0">
+        </p>
+        <p class="mb-0">
+    </div>
+    <!-- /.form-box -->
+</div><!-- /.card -->
+</div>
+<!-- /.register-box -->
+<!-- rebounce -->
+<script src="/rebounceToWelcome.js"></script>
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+<!-- AdminLTE App -->
+<script src="https://cdn.jsdelivr.net/npm/admin-lte@3.2/dist/js/adminlte.min.js"></script>
+<!-- toaster js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+<!--  toaster settings -->
+<script src="/toastrSettings.js"></script>
+<script src="/addBankAccountPage.js"></script>
+</body>
+</html>
+

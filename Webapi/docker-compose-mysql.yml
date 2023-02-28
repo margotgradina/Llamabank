@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  db:
+    image: mysql:8.0.29
+    command: --lower_case_table_names=1
+    container_name: mysql_db
+    cap_add:
+      - SYS_NICE
+    restart: always
+    environment:
+      - MYSQL_DATABASE=Llamabank
+      - MYSQL_USER=userLlamabank
+      - MYSQL_PASSWORD=pwLlamabank
+      - MYSQL_ROOT_PASSWORD=very_secure
+    ports:
+      - '3306:3306'

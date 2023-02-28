@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="Electron" modified="2022-06-14T08:51:30.937Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/19.0.3 Chrome/102.0.5005.63 Electron/19.0.3 Safari/537.36" etag="WfG_WXQow6U1dW3jpUr_" version="19.0.3" type="device">
+  <diagram id="0ft2QxrS5QZsK0WFaiiF" name="Page-1">
+    <mxGraphModel dx="1038" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fv4YTtsU3meWaR_sGrHs-13" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry y="205" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fv4YTtsU3meWaR_sGrHs-1" value="Visitor" style="rounded=1;whiteSpace=wrap;html=1;" parent="fv4YTtsU3meWaR_sGrHs-13" vertex="1">
+          <mxGeometry y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fv4YTtsU3meWaR_sGrHs-2" value="" style="shape=or;whiteSpace=wrap;html=1;rotation=-90;" parent="fv4YTtsU3meWaR_sGrHs-13" vertex="1">
+          <mxGeometry x="40" y="-10" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fv4YTtsU3meWaR_sGrHs-14" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="110" y="45" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fv4YTtsU3meWaR_sGrHs-15" value="Private client" style="rounded=1;whiteSpace=wrap;html=1;" parent="fv4YTtsU3meWaR_sGrHs-14" vertex="1">
+          <mxGeometry y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fv4YTtsU3meWaR_sGrHs-16" value="" style="shape=or;whiteSpace=wrap;html=1;rotation=-90;" parent="fv4YTtsU3meWaR_sGrHs-14" vertex="1">
+          <mxGeometry x="40" y="-10" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fv4YTtsU3meWaR_sGrHs-17" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="284" y="65" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BVh169xx9OuXQxncUVcU-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="fv4YTtsU3meWaR_sGrHs-17" source="fv4YTtsU3meWaR_sGrHs-18" target="fv4YTtsU3meWaR_sGrHs-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fv4YTtsU3meWaR_sGrHs-18" value="Small Business (SB)&lt;br&gt;Client" style="rounded=1;whiteSpace=wrap;html=1;" parent="fv4YTtsU3meWaR_sGrHs-17" vertex="1">
+          <mxGeometry y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fv4YTtsU3meWaR_sGrHs-19" value="" style="shape=or;whiteSpace=wrap;html=1;rotation=-90;" parent="fv4YTtsU3meWaR_sGrHs-17" vertex="1">
+          <mxGeometry x="40" y="-10" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fv4YTtsU3meWaR_sGrHs-20" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="510" y="115" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fv4YTtsU3meWaR_sGrHs-21" value="SB Account Manager" style="rounded=1;whiteSpace=wrap;html=1;" parent="fv4YTtsU3meWaR_sGrHs-20" vertex="1">
+          <mxGeometry y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fv4YTtsU3meWaR_sGrHs-22" value="" style="shape=or;whiteSpace=wrap;html=1;rotation=-90;" parent="fv4YTtsU3meWaR_sGrHs-20" vertex="1">
+          <mxGeometry x="40" y="-10" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fv4YTtsU3meWaR_sGrHs-23" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="690" y="145" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fv4YTtsU3meWaR_sGrHs-24" value="Private Account Manager" style="rounded=1;whiteSpace=wrap;html=1;" parent="fv4YTtsU3meWaR_sGrHs-23" vertex="1">
+          <mxGeometry y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fv4YTtsU3meWaR_sGrHs-25" value="" style="shape=or;whiteSpace=wrap;html=1;rotation=-90;" parent="fv4YTtsU3meWaR_sGrHs-23" vertex="1">
+          <mxGeometry x="40" y="-10" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fv4YTtsU3meWaR_sGrHs-26" value="Banking System" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="445" width="390" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="fv4YTtsU3meWaR_sGrHs-27" value="Other Banking System" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="650" y="445" width="177" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="fv4YTtsU3meWaR_sGrHs-28" value="transactions between&lt;br&gt;bank accounts" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="fv4YTtsU3meWaR_sGrHs-26" target="fv4YTtsU3meWaR_sGrHs-27" edge="1">
+          <mxGeometry x="0.0588" y="-20" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="465" as="sourcePoint" />
+            <mxPoint x="430" y="415" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fv4YTtsU3meWaR_sGrHs-29" value="- view website&lt;br&gt;- login&lt;br&gt;- open bank account&lt;br&gt;- apply for loan" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="fv4YTtsU3meWaR_sGrHs-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="445" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fv4YTtsU3meWaR_sGrHs-30" value="- open bankaccount&lt;br&gt;- make transactions&lt;br&gt;- add extra acc holder&lt;br&gt;- view accounts&lt;br&gt;- edit accounts" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="fv4YTtsU3meWaR_sGrHs-15" target="fv4YTtsU3meWaR_sGrHs-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fv4YTtsU3meWaR_sGrHs-31" value="&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;- open bankaccount&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;- make transactions&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;- add extra acc holder&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;- view accounts&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;- edit accounts&lt;br&gt;&lt;/span&gt;- request pin machine&lt;br&gt;- pin open/close&lt;br&gt;- pin setup&lt;br&gt;- pin payment&lt;br&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="fv4YTtsU3meWaR_sGrHs-18" target="fv4YTtsU3meWaR_sGrHs-26" edge="1">
+          <mxGeometry x="-0.3805" y="-34" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fv4YTtsU3meWaR_sGrHs-32" value="-approve bankaccount&lt;br&gt;- add startamount&lt;br&gt;- set up pin" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.705;entryY=-0.003;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="1" source="fv4YTtsU3meWaR_sGrHs-21" target="fv4YTtsU3meWaR_sGrHs-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fv4YTtsU3meWaR_sGrHs-33" value="- approve bank account&lt;br&gt;- add startamount" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="fv4YTtsU3meWaR_sGrHs-24" target="fv4YTtsU3meWaR_sGrHs-26" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="375" />
+              <mxPoint x="480" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

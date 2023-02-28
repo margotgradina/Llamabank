@@ -1,0 +1,29 @@
+image: maven:3-openjdk-18
+
+stages:
+  - test
+
+services:
+  - name: mysql:8.0.29
+
+variables:
+  MYSQL_DATABASE: Llamabank
+  MYSQL_USER: userLlamabank
+  MYSQL_PASSWORD: pwLlamabank
+
+junit-tests:
+  stage: test
+  before_script:
+    - rm -rf ./src/main/resources/application.properties
+    - touch ./src/main/resources/application.properties
+    - echo -e "spring.jpa.hibernate.ddl-auto=update\nspring.sql.init.mode=never\ndummydata.populate=false\nserver.port=8080" >> ./src/main/resources/application.properties
+  script:
+    - mvn verify
+  only:
+    - merge_requests
+  artifacts:
+    when: always
+    reports:
+      junit:
+        - target/surefire-reports/TEST-*.xml
+
